@@ -1,0 +1,56 @@
+version: 3
+domain: pets
+created_by: "cnigon"  # Replace with your GitHub username
+seed_examples:
+  - context: |
+      Mitsou is an old but very cute cat who loves Christmas. She enjoys sitting near the Christmas tree, playing with ornaments, and admiring the lights.
+    questions_and_answers:
+      - question: Who is Mitsou?
+        answer: Mitsou is an old but very cute cat who loves the Christmas tree.
+      - question: What does Mitsou love about Christmas?
+        answer: Mitsou loves sitting near the tree, playing with ornaments, and admiring the lights.
+      - question: How would you describe Mitsou?
+        answer: Mitsou is a charming and affectionate cat who brings joy with her love for Christmas decorations.
+  - context: |
+      Mitsou's favorite holiday is Christmas. She spends most of her time near the Christmas tree and enjoys the sparkling ornaments.
+    questions_and_answers:
+      - question: What is Mitsou's favorite holiday?
+        answer: Mitsou's favorite holiday is Christmas.
+      - question: How does Mitsou spend her time during Christmas?
+        answer: Mitsou spends most of her time near the Christmas tree, admiring the ornaments and lights.
+      - question: Why does Mitsou love Christmas?
+        answer: Mitsou loves Christmas because of the festive decorations, especially the Christmas tree.
+  - context: |
+      Mitsou, despite her age, is still playful and curious. She often paws at the lower ornaments on the tree and gazes at the glowing lights.
+    questions_and_answers:
+      - question: Is Mitsou playful despite her age?
+        answer: Yes, Mitsou is still playful and curious despite her age.
+      - question: What does Mitsou do with the Christmas tree ornaments?
+        answer: Mitsou often paws at the lower ornaments on the Christmas tree.
+      - question: How does Mitsou react to the Christmas tree lights?
+        answer: Mitsou loves gazing at the glowing lights on the Christmas tree.
+  - context: |
+      Mitsou is a beloved pet who brings joy to her family. Her interactions with the tree and her gentle nature make her a special companion.
+    questions_and_answers:
+      - question: What makes Mitsou special?
+        answer: Mitsou's interactions with the Christmas tree and her gentle nature make her a special companion.
+      - question: How does Mitsou bring joy to her family?
+        answer: Mitsou brings joy to her family through her playful nature and love for Christmas decorations.
+      - question: Why is Mitsou a beloved pet?
+        answer: Mitsou is a beloved pet due to her affectionate personality and love for festive traditions.
+  - context: |
+      Mitsou has been part of her family for many years. Her love for Christmas and the holiday decorations has become a cherished tradition.
+    questions_and_answers:
+      - question: How long has Mitsou been part of her family?
+        answer: Mitsou has been part of her family for many years.
+      - question: What is a cherished tradition involving Mitsou?
+        answer: Mitsou’s love for Christmas and holiday decorations has become a cherished tradition.
+      - question: How has Mitsou impacted her family’s holidays?
+        answer: Mitsou has made the holidays more joyful with her love for Christmas and the decorations.
+document_outline: |
+  A description of Mitsou, an old but adorable cat who loves Christmas and brings joy to her family during the holidays.
+document:
+  repo: https://github.com/cnigon/instructlab-test  # Replace with your repository URL
+  commit: <commit_sha>  # Replace with the commit SHA of your knowledge files
+  patterns:
+    - mitsou.md
